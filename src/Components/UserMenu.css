@@ -1,0 +1,30 @@
+.menuItem {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+  }
+
+  .menuItem h3 {
+    margin: 0;
+    margin-bottom: 5px;
+  }
+
+  .menuItem p {
+    margin: 0;
+    margin-bottom: 5px;
+  }
+
+  /* Mobile view */
+  @media (max-width: 600px) {
+    .menuItem {
+      padding: 5px;
+    }
+
+    .menuItem h3 {
+      font-size: 2em;
+    }
+
+    .menuItem p {
+      font-size: 1.8em;
+    }
+  }
